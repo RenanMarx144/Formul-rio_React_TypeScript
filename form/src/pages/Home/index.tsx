@@ -33,7 +33,7 @@ export function Home() {
                         <button onClick={formulario} className='btn-form'>Formulário</button>
                         <hr />
                         <div className="outline"><p>ou veja o resultados gerados pelo formulário</p></div>
-                        <button className='btn-result' onClick={() => { navegate('/resultados') }}>Resultados</button>
+                        <button className='btn-result' onClick={() => { navegate('/Resultados') }}>Resultados</button>
                     </div>
                 </div>
             </main>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Home } from "./pages/Home";
 import { Form } from "./pages/Form";
-import { Result } from "./pages/Result";
+import { Resultados } from "./pages/Result";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <Routes>
         <Route index  element={<Home />}/>
         <Route path="/formulario" element={<Form />} />
-        <Route path="/resultados" element={<Result />} />
+        <Route path="/resultados" element={<Resultados />} />
       </Routes> 
       </Router>
   );
